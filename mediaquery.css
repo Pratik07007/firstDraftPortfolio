@@ -1,0 +1,160 @@
+@media (max-width : 790px) {
+    *{
+        overflow-x: hidden;
+    }
+    
+    .navbar{
+        background-color: black;
+        height: 20vw;
+    }
+    .nav-right button{
+        font-size: 3vw;
+        padding: 2vw 4vw;
+        border: none;
+        border: 1px solid white;
+    }
+    .nav-right i {
+        display: block;
+        font-size: 30px;
+    }
+    .navbar-options {
+        display: none;
+        gap: 30px;
+    }
+    .logo{
+        font-size: 5vw;
+    }
+    .pageone-main{
+        background-image: url('https://images.pexels.com/photos/1421903/pexels-photo-1421903.jpeg?auto=compress&cs=tinysrgb&w=1200');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+    }
+    .dabba{
+        margin-left: 0px;
+        padding-left: 50px;
+        padding-bottom: 200px;
+    }
+    
+    .dabba h1{
+        font-size: 20vw;
+    }
+    .dabba .hovereffect{
+        border: none;
+        border: 1px solid white;
+        font-size: 5vw;
+    }
+
+    #pagetwo{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    #pagetwo .left{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        
+    }
+    #pagetwo .left img{
+        width: 80%;
+        height: 80%;
+        border-radius: 50%;
+        margin-top: 50px;
+        
+    }
+    #pagetwo .right{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2.5vw;
+        overflow: hidden;
+        padding: 0px;
+    }
+    #pagethree{
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    .pagethreeflex{
+        height: 90%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        overflow: hidden;
+    }
+    .education{
+        width: 100%;
+        overflow: hidden;
+        height: 25%;
+        font-size: 3vw;
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .contactform{
+        height: 75%;
+       overflow: hidden;
+    }
+    td{
+        padding: 5px;
+    }
+    .contactform{
+        width: 100%;
+        margin: 0;
+        padding-top: 30px;
+        padding-left: 35px;
+        
+
+    }
+
+    table{
+        margin-top: 0px;
+    }
+    .socials{
+        gap: 5px;
+        margin-top: 30px;
+        padding:  20px 0px;
+        overflow: hidden;
+    }
+    .socials img{
+        height: 20vw;
+        width: 20vw;
+    }
+    .contactform input{
+        height: 50px;
+        width: 80vw;
+        border-radius: 20px;
+        background-color: grey;
+        border-radius: 0px;
+
+    }
+    .contactform label{
+        font-size:20px;
+        margin: 0 20px;
+    }
+    .contactform textarea{
+        background-color: grey;
+        color: black;
+        width: 80vw;
+        height: 50px;
+        margin: 0 20px;
+}
+.text{
+    display: none;
+}
+}

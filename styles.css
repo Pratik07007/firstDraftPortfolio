@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    color: white;
+    overflow-x: hidden; 
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+h1{
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+}
+.pageone{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    background-image: url('https://images.pexels.com/photos/1421903/pexels-photo-1421903.jpeg?auto=compress&cs=tinysrgb&w=1200');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1000;
+    padding-right: 20px;
+    
+}
+.navbar-options{
+    display: flex;
+    gap: 30px;
+}
+.navbar-options h3{
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.navbar-options h3:hover{
+    color: rgb(51, 68, 121);
+    margin-top: 10px;
+}
+.nav-right{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+.nav-right i{
+    font-size: 10vw;
+    display: none;
+}
+.nav-right button{
+    border: 0.2px solid white;
+    background-color: transparent;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    font-size: 1.5vw;
+}
+.hovereffect:hover{
+    border: 0.2px solid white;
+    background-color: royalblue;
+    color: black;
+    margin-top: 10px;
+    
+}
+.pageone-main{
+    display: flex;
+    align-items: center;
+    height: 1000px ;
+    width: 100%;
+
+}   
+.pageone-main .hovereffect{
+    border: none;
+    color: white;
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 10px 30px;
+    border: 0.5px solid white;
+    margin-left: 20px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    transition-duration: 0.5s;
+}
+.dabba{
+    padding-left: 100px;
+}
+.dabba button{
+    font-size: 1.9vw;
+    padding: 2vw 5vw;
+    position: relative;
+    right: 20px;
+}
+.dabba h1{
+    font-size: 10vw;
+    line-height: 0.9em;
+}
+.pageone-main .hovereffect:hover{
+    border: 0.2px solid white;
+    background-color: royalblue;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: black;
+    margin-bottom: 10px;
+}
+.pageone-fotter{
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    width: 100%;
+    gap: 5px;
+    font-size: 0.5vw;
+}
+.pageone-fotter h3{
+    font-size: 200vw;
+}
+.pageone-fotter i{
+    font-size: 24px;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+/* pageTwo */
+#pagetwo{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    overflow-y: hidden;
+
+}
+#pagetwo .left{
+    height: 95%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pagetwo .right{
+    height: 95%;
+    width: 60%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    text-align: center;
+}
+.pagetwo-footer{
+background-color: black;
+display: flex;
+gap: 5px;
+justify-content: center;
+
+}
+.pagetwo-footer i{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* pageThree */
+#pagethree{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.pagethreeflex{
+    display: flex;
+    align-items: center;
+    gap: 0;
+    overflow: hidden;
+}
+.education{
+    height: 85%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+
+}
+.contactform{
+    height: 80%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 100px;
+    overflow: hidden;
+    margin-top: 150px;
+}
+table{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+td{
+    padding: 20px 40px;
+    border: 2px solid white;
+}
+.threeimage img{
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;
+}
+form input {
+    color: black;
+    margin: 0 20px;
+}
+form button{
+    padding: 10px 30px;
+    border: none;
+    color: black;
+    border-radius: 20px;
+    border: 1px solid white;
+    margin: 0 20px;
+}
+.contactform input{
+    height: 50px;
+    width: 500px;
+    border-radius: 20px;
+    background-color: grey;
+    
+}
+.contactform label{
+    font-size: 50px;
+    margin: 0 20px;
+}
+.contactform textarea{
+    background-color: grey;
+    color: black;
+    width: 500px;
+    height: 100px;
+    margin: 0 20px;
+}
+.contactform button{
+    margin-top: 20px;
+    background-color: grey;
+    cursor: pointer;
+}
+.contactform button:hover{
+    background-color: royalblue;
+    border: 1px solid white;
+}
+::placeholder{
+    color: black;
+    text-transform: uppercase;
+}
+.last{
+    margin-top: 90px;
+}
+
+.socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 20px;
+}
+.socials img{
+    height: 90px;
+    width: 200px;
+    border-radius: 10px;
+
+}
+
+.socials img:hover{
+    border: 2px solid royalblue;
+}
+
