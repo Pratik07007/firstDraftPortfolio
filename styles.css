@@ -278,6 +278,7 @@ form button{
     justify-content: center;
     gap: 100px;
     margin-bottom: 20px;
+    overflow:hidden;
 }
 .socials img{
     height: 90px;
